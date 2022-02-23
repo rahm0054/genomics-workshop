@@ -1,0 +1,14 @@
+*.fastq filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.sh filter=lfs diff=lfs merge=lfs -text
+*.fo filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gbff filter=lfs diff=lfs merge=lfs -text
+*.gff filter=lfs diff=lfs merge=lfs -text
+*.bam filter=lfs diff=lfs merge=lfs -text
+*.aligned filter=lfs diff=lfs merge=lfs -text
+*.bcf filter=lfs diff=lfs merge=lfs -text
+*.vcf filter=lfs diff=lfs merge=lfs -text
+*.sam filter=lfs diff=lfs merge=lfs -text
