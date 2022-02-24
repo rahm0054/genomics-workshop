@@ -1,22 +1,3 @@
-set -e
-cd ~/dc_workshop/data/untrimmed_fastq/
-
-echo "Running FastQC ..."
-~/FastQC/fastqc *.fastq
-
-mkdir -p ~/dc_workshop/results/fastqc_untrimmed_reads
-
-echo "Saving FastQC results..."
-mv *.zip ~/dc_workshop/results/fastqc_untrimmed_reads/
-mv *.html ~/dc_workshop/results/fastqc_untrimmed_reads/
-
-cd ~/dc_workshop/results/fastqc_untrimmed_reads/
-
-echo "Unzipping..."
-for filename in *.zip
-    do
-    unzip $filename
-    done
-
-echo "Saving summary..."
-cat */summary.txt > ~/dc_workshop/docs/fastqc_summaries.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:bae7a7e645eb44408cd1282633a1a49ccf9b3224157453ed3059297d0e20cd90
+size 511
